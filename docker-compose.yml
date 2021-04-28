@@ -5,7 +5,7 @@ services:
     build: .
     command: python manage.py runserver 0:8000
     ports:
-      - "28000:8000"
+      - "38000:8000"
     volumes:
       - .:/web
     depends_on:
