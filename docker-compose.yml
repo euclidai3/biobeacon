@@ -13,5 +13,6 @@ services:
   db:
     image: postgres
     environment:
+      - POSTGRES_DB=biobeacon
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
